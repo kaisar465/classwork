@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: url(../img/wp4854160-black-water-wallpapers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Barlow', sans-serif;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&display=swap');
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+        /*Whole Section*/
+
+.whole{
+    width: 100%;
+    float: left;
+    margin-top: 80px;
+}
+.part-one{
+    width: 60%;
+    float: left;
+}
+.part-one h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+.part-one span{
+    color: #0bd21a;
+    margin: 15px 0px;
+}
+.part-one h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 300;
+}
+.part-one p{
+    color: rgb(150 150 150);
+    margin: 15px 0px;
+}
+.part-one ul{
+    
+}
+.part-one ul li{
+    color: rgb(150 150 150);
+    list-style: none;
+    margin: 5px 0px;
+}
+.part-one ul li a{
+    
+}
+.fa.fa-check-circle-o{
+    color: white;
+    padding: 0px 3px 0px 0px;
+}
+.btn{
+    margin: 15px 0px 0px 10px;
+    padding: 10px 20px;
+    background-color: #007eff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.part-two{
+    width: 35%;
+    float: left;
+    background-color: #005aff;
+}
+.part-two h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.part-two p{
+    color: white;
+    text-align: center;
+    padding: 5px 0px 15px;
+    margin: 0px 15px;
+    font-size: 15px;
+}
+.part-two ul{
+    
+}
+.part-two ul li{
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+}
+.part-two ul li input{
+    padding: 8px 180px 8px 5px;
+    margin-left: 10px;
+}
+.reg-btn{
+    padding: 8px 245px 8px 5px;
+    margin-left: 20px;
+    color: white;
+    background-color: #650065;
+    border: none;
+    margin-bottom: 35px;
+    cursor: pointer;
+
+}
+.reg-btn:hover{
+    box-shadow: 0px 3px green;
+}
